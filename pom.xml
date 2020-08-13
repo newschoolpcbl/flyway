@@ -41,19 +41,19 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <scm>
+<!--    <scm>-->
 
-        <url>https://github.com/flyway/flyway</url>
-        <connection>scm:git:${env.FLYWAY_REPO_URL}</connection>
-        <developerConnection>scm:git:${env.FLYWAY_REPO_URL}</developerConnection>
-
-
+<!--        <url>https://github.com/flyway/flyway</url>-->
+<!--        <connection>scm:git:${env.FLYWAY_REPO_URL}</connection>-->
+<!--        <developerConnection>scm:git:${env.FLYWAY_REPO_URL}</developerConnection>-->
 
 
 
 
-        <tag>HEAD</tag>
-    </scm>
+
+
+<!--        <tag>HEAD</tag>-->
+<!--    </scm>-->
     <developers>
         <developer>
             <id>axel</id>
@@ -77,15 +77,15 @@
     </modules>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>${snapshotRepository.id}</id>
-            <name>${snapshotRepository.name}</name>
-            <url>${snapshotRepository.url}</url>
-        </snapshotRepository>
+<!--        <snapshotRepository>-->
+<!--            <id>${snapshotRepository.id}</id>-->
+<!--            <name>${snapshotRepository.name}</name>-->
+<!--            <url>${snapshotRepository.url}</url>-->
+<!--        </snapshotRepository>-->
         <repository>
-            <id>${releaseRepository.id}</id>
-            <name>${releaseRepository.name}</name>
-            <url>${releaseRepository.url}</url>
+            <id>github</id>
+            <name>GitHub newschoolpcbl Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/newschoolpcbl/flyway</url>
         </repository>
     </distributionManagement>
 
