@@ -44,7 +44,7 @@ public class DriverDataSource implements DataSource {
      * NOTE: The drivers will be matched in order, from the top of this enum down.
      */
     public enum DriverType {
-        CLICKHOUSE("jdbc:clickhouse:", "ru.yandex.clickhouse.ClickHouseDriver"),
+        CLICKHOUSE("jdbc:clickhouse:", "cc.blynk.clickhouse.ClickHouseDriver"),
         DB2("jdbc:db2:", "com.ibm.db2.jcc.DB2Driver"),
         DERBY_CLIENT("jdbc:derby://", "org.apache.derby.jdbc.ClientDriver"),
         DERBY_EMBEDDED("jdbc:derby:", "org.apache.derby.jdbc.EmbeddedDriver"),
